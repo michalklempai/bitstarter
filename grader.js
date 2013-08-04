@@ -42,7 +42,7 @@ var cheerioHtmlFile = function(fileData) {
 
 var checkPerform = function(fileData, checksData) {
     $ = cheerioHtmlFile(fileData);
-y
+
     var out = {};
 
     for(var ii in checksData) {
